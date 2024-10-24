@@ -1,3 +1,4 @@
+class Solution {
     public List<Integer>temp=new ArrayList<>();
     public List<List<Integer>> result=new ArrayList<>();
     public int[] candidates;
@@ -25,3 +26,4 @@
             temp.removeLast();
         }
     }
+}
